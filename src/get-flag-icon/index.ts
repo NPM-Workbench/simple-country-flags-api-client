@@ -13,7 +13,7 @@ function getFlagIcon(props: TGetFlagIconParams): string {
     /* props - destruct */
     const { countryCode, size, style } = props;
     /* end */
-    return `https://flagsapi.com/${countryCode}/${size}/${style}.png`;
+    return `https://flagsapi.com/${countryCode}/${style}/${size}.png`;
 }
 
 /* exports */
