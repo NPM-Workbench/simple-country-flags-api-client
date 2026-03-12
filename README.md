@@ -44,6 +44,37 @@ export function CountryFlag({ code }: { code: string }) {
 }
 ```
 
+### 📗 Test Coverage
+```console
+PASS  src/get-supported-countries/test/index.test.ts
+  getSupportedCountries
+    ✓ returns an array with length greater than zero
+    ✓ ensures each item has "name" and "code" string properties
+    ✓ ensures each "code" is exactly 2 characters long
+    ✓ ensures each code is uppercase
+    ✓ ensures there are no duplicate codes
+
+PASS  src/get-flag-icon/test/index.test.ts
+  getFlagIcon
+    ✓ returns the URL based on the input params
+    ✓ returns a URL that contains "https://flagsapi.com" as a substring
+    ✓ returns a flat 16px URL in /style/size.png order
+    ✓ returns a shiny 64px URL in /style/size.png order
+```
+```console
+-------------------------|---------|----------|---------|---------|-------------------
+File                     | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------------|---------|----------|---------|---------|-------------------
+All files                |     100 |      100 |     100 |     100 |                   
+ get-flag-icon           |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+ get-supported-countries |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+-------------------------|---------|----------|---------|---------|-------------------
+Test Suites: 2 passed, 2 total
+Tests:       9 passed, 9 total
+```
+
 ###  📘 Contributing
 Contributions, suggestions, and improvements are welcome.<br/>
 Feel free to open issues or pull requests.
