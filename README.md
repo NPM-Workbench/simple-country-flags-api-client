@@ -1,4 +1,8 @@
 ![api-banner-1](https://github.com/user-attachments/assets/5055a53c-6464-45dc-8612-a1ec53cb66da)
+![npm](https://img.shields.io/npm/v/simple-country-flags-api-client)
+![downloads](https://img.shields.io/npm/dw/simple-country-flags-api-client)
+![license](https://img.shields.io/npm/l/simple-country-flags-api-client)
+![NPM Unpacked Size](https://img.shields.io/npm/unpacked-size/simple-country-flags-api-client)
 # simple-country-flags-api-client
 🇺🇳 simple-country-flags-api-client is a tiny TypeScript/JavaScript helper that generates type‑safe image URLs for country flags from https://flagsapi.com/ and exposes a curated, strongly‑typed list of supported countries for UI dropdowns and selectors.
 
